@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------
+# 课程学习知识库模板
+# 原则：本机状态、构建产物、第三方仓库不入库；知识结构与材料目录结构入库。
+# ---------------------------------------------------------------
+
+# --- 工具本机状态（换机器就会冲突，不属于模板内容）---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.claude/settings.local.json
+.claude/.claude.json
+.claudian/
+
+# --- Obsidian 插件的构建产物（可从社区插件市场重装）---
+# 保留 .obsidian/community-plugins.json 记录推荐插件清单，不提交插件本体。
+.obsidian/plugins/
+
+# --- 第三方 skills 仓库（MIT，属上游 kepano/obsidian-skills）---
+# 不随本模板分发，安装方式见 README「第三方内容」一节。
+.claude/obsidian-skills-main/
+
+# --- 课程材料（可选）---
+# 本模板的 raw/ 只有 .gitkeep 占位，可以入库。
+# 若你放入教材 PDF、教师 PPT、课堂录音，受版权与隐私限制，
+# 请解除下面两行注释，让材料只留在本地：
+# raw/**
+# !raw/**/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- 系统与临时文件 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak

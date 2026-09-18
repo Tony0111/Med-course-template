@@ -1,0 +1,49 @@
+{
+  "search_keywords_template": {
+    "topic": "研究主题",
+    "keywords": [
+      {
+        "category": "基础词",
+        "terms": [
+          {
+            "term": "词汇",
+            "chinese": "中文翻译",
+            "priority": "high",
+            "usage": "在所有搜索中都要用"
+          }
+        ]
+      },
+      {
+        "category": "方法词",
+        "terms": []
+      },
+      {
+        "category": "应用词",
+        "terms": []
+      },
+      {
+        "category": "评估词",
+        "terms": []
+      },
+      {
+        "category": "相关词",
+        "terms": []
+      }
+    ],
+    
+    "search_combinations": [
+      {
+        "name": "核心组合",
+        "keywords": "keyword1 AND keyword2",
+        "databases": ["PubMed", "Google Scholar"],
+        "expected_results": "预期结果数（参考）"
+      },
+      {
+        "name": "方法组合",
+        "keywords": "method1 AND application1",
+        "databases": ["arXiv", "Google Scholar"],
+        "expected_results": "预期结果数（参考）"
+      }
+    ]
+  }
+}

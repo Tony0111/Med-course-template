@@ -1,0 +1,37 @@
+{
+  "database_recommendation_template": {
+    "topic": "研究主题",
+    "topic_analysis": {
+      "disciplines": ["学科1", "学科2"],
+      "task_type": "任务类型",
+      "application_scenario": "应用场景",
+      "technology_direction": "技术方向"
+    },
+    
+    "recommendations": [
+      {
+        "rank": 1,
+        "database": "数据库名称",
+        "reason": "推荐理由",
+        "priority": "high",
+        "search_strategy": "在这个数据库应该怎么搜",
+        "expected_papers": "预期找到多少高质量论文",
+        "tips": "搜索技巧"
+      }
+    ],
+    
+    "search_plan": {
+      "phase_1": "第一阶段搜索什么",
+      "phase_2": "第二阶段搜索什么",
+      "phase_3": "第三阶段搜索什么",
+      "backward_search": "如何做向后引用追踪",
+      "forward_search": "如何做向前引用追踪"
+    },
+
+    "suggestions": [
+      "建议1",
+      "建议2",
+      "建议3"
+    ]
+  }
+}

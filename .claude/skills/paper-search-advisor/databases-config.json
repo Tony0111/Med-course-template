@@ -1,0 +1,233 @@
+{
+  "databases": [
+    {
+      "id": "pubmed",
+      "name": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "specialty": ["医学", "生物医学", "临床", "药学", "公共卫生"],
+      "coverage": "世界最大的生物医学文献数据库",
+      "size": "3500万+论文",
+      "strengths": [
+        "医学权威性最强",
+        "临床相关论文最全",
+        "免费开放",
+        "支持高级搜索"
+      ],
+      "weaknesses": [
+        "计算机/AI论文相对少",
+        "界面相对老旧"
+      ],
+      "best_for": [
+        "医学主题",
+        "临床应用",
+        "生物医学方法",
+        "需要权威性"
+      ],
+      "search_tips": [
+        "用 MeSH 关键词搜索更精准",
+        "支持布尔逻辑 AND/OR/NOT",
+        "可按年份、开放获取、证据等级筛选",
+        "支持 PMID 直接查询"
+      ],
+      "priority_keywords": ["Medical", "Clinical", "Healthcare", "Disease", "Treatment"]
+    },
+    {
+      "id": "google_scholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/",
+      "specialty": ["跨学科", "综合"],
+      "coverage": "涵盖所有学术领域",
+      "size": "1亿+论文",
+      "strengths": [
+        "覆盖最广泛",
+        "引用追踪强大",
+        "界面简洁易用",
+        "免费"
+      ],
+      "weaknesses": [
+        "搜索质量波动",
+        "有时会混入非学术内容",
+        "没有高级筛选"
+      ],
+      "best_for": [
+        "初步探索领域",
+        "引用链追踪",
+        "快速找论文",
+        "跨学科检索"
+      ],
+      "search_tips": [
+        "使用引号精确搜索",
+        "用 'author:' 搜作者",
+        "用 'site:' 限制域名",
+        "看引用数排序"
+      ],
+      "priority_keywords": ["Review", "Survey", "Systematic Review", "Meta-analysis"]
+    },
+    {
+      "id": "semantic_scholar",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/",
+      "specialty": ["跨学科", "AI驱动"],
+      "coverage": "广泛的学术论文",
+      "size": "2亿+论文",
+      "strengths": [
+        "AI驱动的筛选很强",
+        "能看相关论文推荐",
+        "能看引用关系",
+        "摘要提炼质量高",
+        "免费"
+      ],
+      "weaknesses": [
+        "相对较新，某些领域覆盖可能不完整"
+      ],
+      "best_for": [
+        "快速筛选相关论文",
+        "看论文引用关系",
+        "找相似研究",
+        "了解论文影响力"
+      ],
+      "search_tips": [
+        "直接输入关键词，AI 会理解",
+        "看 'Cited by' 追踪后续研究",
+        "看 'References' 找奠基工作",
+        "看 'Related papers' 找相似工作"
+      ],
+      "priority_keywords": ["Related work", "State of the art", "Latest research"]
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "url": "https://openalex.org/",
+      "specialty": ["结构化检索", "大规模统计"],
+      "coverage": "全球学术出版物",
+      "size": "2亿+论文",
+      "strengths": [
+        "数据完全开放",
+        "支持 API 和高级查询",
+        "结构化数据质量高",
+        "适合做系统性检索"
+      ],
+      "weaknesses": [
+        "界面不如 Google Scholar 友好",
+        "学习曲线较陡"
+      ],
+      "best_for": [
+        "系统性、大规模检索",
+        "做数据统计分析",
+        "用 API 自动化搜索",
+        "想要结构化数据"
+      ],
+      "search_tips": [
+        "支持 API 查询",
+        "可按出版年份、引用量统计",
+        "可做领域分析",
+        "支持导出 JSON/BibTeX"
+      ],
+      "priority_keywords": ["API query", "Systematic search", "Dataset analysis"]
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "specialty": ["计算机", "物理", "数学", "预印本"],
+      "coverage": "2百万+预印本",
+      "size": "计算机科学最大的预印本库",
+      "strengths": [
+        "AI/深度学习论文最全",
+        "最新前沿工作发布最快",
+        "免费开放",
+        "支持分类导航"
+      ],
+      "weaknesses": [
+        "主要是预印本，未经正式审稿",
+        "医学相关论文较少"
+      ],
+      "best_for": [
+        "AI/机器学习方向",
+        "需要最新预印本",
+        "计算机科学主题",
+        "跟踪前沿研究"
+      ],
+      "search_tips": [
+        "支持高级搜索和分类浏览",
+        "可按提交时间排序",
+        "支持导出 BibTeX",
+        "定期有更新提醒"
+      ],
+      "priority_keywords": ["Deep learning", "NLP", "Computer vision", "Machine learning"]
+    },
+    {
+      "id": "medrxiv",
+      "name": "medRxiv",
+      "url": "https://www.medrxiv.org/",
+      "specialty": ["医学", "预印本"],
+      "coverage": "医学预印本",
+      "size": "数十万医学预印本",
+      "strengths": [
+        "医学最新预印本",
+        "发布速度快",
+        "免费",
+        "同行评议前可见"
+      ],
+      "weaknesses": [
+        "未经正式审稿",
+        "质量参差不齐"
+      ],
+      "best_for": [
+        "医学最新研究",
+        "COVID 等热门医学话题",
+        "快速了解医学前沿"
+      ],
+      "search_tips": [
+        "支持学科分类",
+        "可按日期排序",
+        "可看 citations",
+        "导出引用信息"
+      ],
+      "priority_keywords": ["Clinical trial", "Disease", "Treatment", "Diagnosis"]
+    },
+    {
+      "id": "biorxiv",
+      "name": "bioRxiv",
+      "url": "https://www.biorxiv.org/",
+      "specialty": ["生物学", "预印本"],
+      "coverage": "生物学预印本",
+      "size": "数十万生物学预印本",
+      "strengths": [
+        "生物学最新预印本",
+        "发布速度快",
+        "免费",
+        "生物医学应用很全"
+      ],
+      "weaknesses": [
+        "未经正式审稿",
+        "某些方向论文较少"
+      ],
+      "best_for": [
+        "生物学主题",
+        "生物医学应用",
+        "生物信息学",
+        "追踪最新生物学研究"
+      ],
+      "search_tips": [
+        "支持学科分类",
+        "可按日期排序",
+        "可看相关论文",
+        "支持导出引用"
+      ],
+      "priority_keywords": ["Biomarker", "Gene", "Protein", "Biological process"]
+    }
+  ],
+  "specialty_mapping": {
+    "医学": ["PubMed", "medRxiv", "Google Scholar"],
+    "生物医学": ["PubMed", "bioRxiv", "Google Scholar"],
+    "临床": ["PubMed", "medRxiv", "Google Scholar"],
+    "计算机": ["arXiv", "Google Scholar", "OpenAlex"],
+    "AI/机器学习": ["arXiv", "Google Scholar", "Semantic Scholar"],
+    "NLP": ["arXiv", "Google Scholar", "Semantic Scholar"],
+    "生物学": ["bioRxiv", "PubMed", "Google Scholar"],
+    "跨学科": ["Google Scholar", "Semantic Scholar", "OpenAlex"],
+    "需要最新": ["arXiv", "medRxiv", "bioRxiv"],
+    "需要权威": ["PubMed", "Google Scholar", "OpenAlex"]
+  }
+}

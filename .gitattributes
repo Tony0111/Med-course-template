@@ -1,0 +1,14 @@
+# 统一换行符，避免 Windows / macOS / Linux 互相提交出整文件差异
+* text=auto eol=lf
+
+# 需要保留 CRLF 的文件
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# 二进制
+*.pdf binary
+*.pptx binary
+*.m4a binary
+*.mp3 binary
+*.png binary
+*.jpg binary
